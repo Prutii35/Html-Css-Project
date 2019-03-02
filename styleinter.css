@@ -1,0 +1,126 @@
+#buton
+{
+	margin-left:40px;
+	margin-top:30px;
+	border:solid snow;
+	border-radius:8px;
+	font-size:20px;
+	color:snow;
+	padding:13px 29px;
+	background-color:transparent;
+	font-family:monospace;
+}
+
+#buton:hover
+{
+	background-color:transparent;
+	color:Moccasin	;
+	
+}
+
+#titlu
+{
+	font-size:40px;
+	color:Moccasin;
+	font-family:cursive;
+	font-style:oblique;
+	text-align:center;
+	margin-top:20px;
+}
+
+body
+{
+	background-image:url("interbackground.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:scroll;
+}
+
+#videoclip
+{
+	width:530px;
+	height:300px;
+	margin-left:30px;
+	vertical-align:sub;
+}
+#movie
+{
+	text-align:center;
+	color:white;
+}
+
+#reviews
+{
+	width:90%;
+	display:block;
+	margin-left:30px;
+	margin-top:auto;
+	font-family:monospace;
+	font-style:itlaic;
+	font-size:17px;
+	color:Moccasin;
+}
+
+#intro
+{
+	display:block;
+	margin-left:30px;
+	margin-top:30px;
+	width:45%;
+	
+	color:Moccasin;
+	font-family:cursive;
+	font-size:17px;
+}
+
+@media screen and (max-width: 850px)
+{	
+	body
+	{
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	}
+	#titlu
+	{
+	font-size:30px;
+	
+	}
+	#videoclip
+	{
+		
+	width:430px;
+	height:200px;
+	
+	}
+	#reviews
+	{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 500px)
+{	
+	body
+	{
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	}
+	#titlu
+	{
+	font-size:30px;
+	
+	}
+	#videoclip
+	{
+		
+	width:250px;
+	height:100px;
+	}
+	#reviews
+	{
+		width: 50%;
+	}
+}
+

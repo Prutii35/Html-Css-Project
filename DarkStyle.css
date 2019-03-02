@@ -1,0 +1,107 @@
+body
+{
+    margin: 0;
+    padding: 10px;
+    background: url("darkback.jpg");
+    background-repeat: no-repeat;
+	background-attachment:fixed;
+    background-size: 100% 100%;
+    font-family: 'Karla', sans-serif;
+}
+
+#titlu
+{
+    text-align: center;
+    color : #E6E7EC;
+    margin-top: 10px;
+}
+
+#buton
+{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 25px;
+    top: 25px;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+  
+}
+
+.left, .right {
+  
+  margin-left:5px;
+  margin-top:50px;
+  
+  color:Bisque;
+    font-family:monospace;
+	font-size:20px;
+}
+
+.right
+{
+    width: 15%;
+}
+.left
+{
+    width: 20%;
+}
+
+.middle {
+  width: 60%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.ep
+{
+    color: black;
+    font-size: 15px;
+    color: Lavender;
+    margin-bottom: 30px;
+}
+
+b{
+    color: beige;
+}
+
+
+@media screen and (max-width: 550px)
+{
+    .middle
+    {
+        width: 0%;
+    }
+    .left, .right
+    {
+        width: 45%;
+    }
+    body
+    {
+        background-image: url("darkback2.jpg");
+    }
+    .ep
+    {
+        color: Gainsboro;
+        font-weight: bold;
+    }
+}
+
+
+
+

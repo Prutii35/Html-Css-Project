@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#837D89  ;
+
+    font-family: 'Josefin Sans', sans-serif;
+    color:#141414;
+}
+
+#divPrincipal
+{
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#divTitlu
+{
+    display: block;
+    text-align: center;
+    margin-top:50px;
+}
+
+#imagTitlu
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 180px;
+}
+
+#divContent
+{
+    
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#story
+{
+    margin-top: 25px;
+}
+
+#pozaStory
+{
+    height:200px;
+    width: 300px;
+    float: left;
+    margin-left: 25px;
+    border-radius: 5px;
+   
+}
+
+#sageataStanga
+{
+    position: absolute;
+    top:30px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+}
+#sageataDreapta
+{
+    position: absolute;
+    top:30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 500px)
+{
+    #pozaStory
+    {
+        width: 180px;
+    }
+}

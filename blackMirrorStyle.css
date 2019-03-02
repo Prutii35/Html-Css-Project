@@ -1,0 +1,100 @@
+body
+{
+    margin : 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: black;
+    color:Lavender;
+
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+#sageata
+{
+    position: absolute;
+    top:25px;
+    left:25px;
+    height: 50px;
+    width: 50px;
+}
+
+#titlu1
+{
+    height:150px;
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+#intro
+{
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: oblique;
+    margin-bottom: 100px;
+}
+
+#episoade
+{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+.titlu
+{
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 50px;
+}
+
+.poza
+{
+    float:left;
+    margin-right: 25px;
+    border-radius: 4px;
+    height:270px;
+    width: 160px;
+}
+
+.ep
+{
+    clear: both;
+    overflow: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.poveste
+{
+    text-align: center;
+}
+
+#continut1
+{
+    display: flex;
+    align-items:center;
+}
+
+
+
+
+
+
+
+
+

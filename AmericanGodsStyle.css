@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#6F6C6C   ;
+
+    font-family: 'Josefin Sans', sans-serif;
+    color:#141414;
+}
+
+#divPrincipal
+{
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#divTitlu
+{
+    display: block;
+    text-align: center;
+    margin-top:50px;
+}
+
+#imagTitlu
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 180px;
+    margin-bottom: 25px;
+}
+
+#divContent
+{
+    
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#story
+{
+    margin-top: 25px;
+}
+
+#pozaStory
+{
+    
+    height:200px;
+    width:80%;
+    display: block; 
+    margin-left: auto;
+    margin-right:auto;
+
+    margin-top:50px;
+    
+    border-radius: 5px;
+   
+}
+
+#episodes
+{
+    text-align: left;
+}
+
+.epimg
+{
+    display: inline-block;
+}
+
+#about
+{
+    height: 50px;
+    width: 50px;
+    vertical-align: top;
+}
+
+h4{
+    color: mistyrose;
+}
+
+
+
+
+#sageataStanga
+{
+    position: absolute;
+    top:30px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+}
+#sageataDreapta
+{
+    position: absolute;
+    top:30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 500px)
+{
+    #pozaStory
+    {
+        width: 200px;
+        height: 100px;
+    }
+
+}

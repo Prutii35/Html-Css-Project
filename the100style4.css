@@ -1,0 +1,87 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courgette', cursive;
+
+}
+
+.sageata1
+{
+    top:5px;
+    left:5px;
+    
+}
+.sageata2
+{
+    top:5px;
+    right:5px;
+    position: absolute;
+
+}
+
+#back
+  {
+      height:50px;
+      width:50px;
+      margin-left: 10px;
+      margin-top: 10px;
+  }
+#front
+  {
+    height:50px;
+    width:50px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+#titlu
+{
+    text-align: center;
+    font-size:30px;
+    margin-top:45px;
+    margin-bottom: 55px;
+
+}
+#poveste
+{
+    display: block;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom : 60px;
+}
+
+#poza1
+{
+    height:150px;
+    width:300px;
+    border-radius: 10px;
+    border:1px solid black;
+}
+#poza
+{
+    text-align: center;
+}
+
+
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+  }
+
+.left {
+    left: 0;
+    background-image: url("100cover.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+.right {
+    right: 0;
+    background-color: Lavender;
+  }

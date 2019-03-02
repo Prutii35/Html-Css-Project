@@ -1,0 +1,131 @@
+body
+{
+	background-color:NavajoWhite;
+	margin:0;
+	padding: 0;
+}
+
+td:nth-of-type(odd) {
+    background: MistyRose	;
+}
+
+td:nth-of-type(even) {
+    background: AliceBlue;
+}
+th:nth-of-type(odd) {
+    background: AliceBlue;
+}
+
+#buton
+{
+	margin-left:40px;
+	margin-top:20px;
+	border:solid BlanchedAlmond	;
+	border-radius:8px;
+	font-size:20px;
+	color:DarkSlateBlue	;
+	padding:13px 29px;
+	background-color:transparent;
+	font-family:monospace;
+}
+
+#buton:hover
+{
+	background-color:DarkSlateBlue;
+	color:NavajoWhite;
+	border:solid 	DarkSlateBlue;
+}
+
+#titlu
+{
+	text-align:center;
+	color:DarkSlateBlue;
+	margin-top:35px;
+	font-family:cursive;
+	font-style:oblique;
+	font-size:25px;
+}
+
+#tab
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+	margin-top:100px;
+	margin-bottom:100px;
+	
+}
+
+table, th, td {
+    border: 3px solid Silver;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th
+{
+	color:DarkSlateBlue;
+	font-family:cursive;
+	font-style:oblique;
+	font-size:17px;
+}
+
+td
+{
+	color:steelblue;
+	font-family:"Gill Sans", sans-serif;
+	font-style:cursive;
+	font-size:15px;
+}
+#data
+{
+	font-size:20px;
+	color:DarkSlateBlue	;
+	font-family:monospace;
+	text-align: center;
+}
+#t
+{
+	font-size:20px;
+	color:DarkSlateBlue	;
+	font-family:monospace;
+}
+#quest
+{
+	text-align: center;
+	font-size:20px;
+	color:DarkSlateBlue	;
+	font-family:monospace;
+}
+#sageata
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color:black;
+}
+#sageata2
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color:black;
+}
+
+@media screen and (max-width: 800px)
+{
+	#tab
+	{
+		display:block;
+		margin-left:0;
+		margin-right:auto;
+		width:50%;
+	}
+	
+	table, th, td
+	{
+		font-size:12px;
+	}
+}

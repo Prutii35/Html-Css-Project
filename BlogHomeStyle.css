@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("signback.jpg");
+}
+
+#DivPrincipal
+{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+}
+span
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+#filme
+{
+    float:left;
+    width: 45%;
+    height: 100%;
+    background: url("Movies.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-right: 2%;
+    border:2px solid black;
+    border-radius: 180px;
+
+    transition: opacity 2s;
+
+    opacity: 1;
+}
+#seriale
+{
+    margin-left:2%;
+    width: 45%;
+    float: left;
+    height: 100%;
+    background: url("TvSeries.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border:2px solid black;
+    border-radius: 180px;
+
+    transition: opacity 2s;
+
+    opacity: 1;
+}
+
+#seriale:hover + #filme
+{
+    opacity: 0.4;
+    
+}
+
+
+#filme:hover
+{
+    border-color: mistyrose;
+}
+
+#filme:hover + #seriale
+{
+    opacity: 0.4;
+    
+}
+
+#seriale:hover
+{
+    border-color: mistyrose;
+}
+
+#sageata
+{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top:30px;
+    left: 30px;
+}
+
+@media screen and (max-width: 900px)
+{
+    #DivPrincipal
+    {
+        left: 10%;
+        width: 80%;
+       
+    }
+}
+@media screen and (max-width: 650px)
+{
+    #DivPrincipal
+    {
+        left: 20%;
+        width: 60%;
+        top: 35%;
+        height: 30%;
+       
+    }
+}
+
+
+
+
+
